@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
           
           <div className="flex justify-center space-x-8 animate-fade-in delay-700">
-            <a href="mailto:mark@aivate.net" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform">
+            <a href="mailto:markyjalandoni.mj@gmail.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform">
               <Mail className="w-8 h-8" />
             </a>
             <a href="https://github.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform">
