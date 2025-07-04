@@ -103,16 +103,7 @@ const Projects = () => {
                 ))}
               </div>
               
-              <div className="flex space-x-4">
-                <button className="flex items-center space-x-2 text-purple-600 hover:text-purple-800 transition-colors duration-300">
-                  <Github className="w-5 h-5" />
-                  <span className="text-sm font-medium">Code</span>
-                </button>
-                <button className="flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors duration-300">
-                  <Link className="w-5 h-5" />
-                  <span className="text-sm font-medium">Demo</span>
-                </button>
-              </div>
+
             </div>
           ))}
         </div>
