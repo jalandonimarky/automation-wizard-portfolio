@@ -27,43 +27,77 @@ const About = () => {
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Hi there! I'm a passionate Technical Engineer and Automation Specialist with a knack for 
               API scripting, Python, and JavaScript. Over the years, I've had the privilege of working 
-              in helpdesk and technical support roles, ultimately managing projects for startups.
+              in helpdesk and technical support roles, ultimately managing projects for startups. <br><br>
+              I began my career in helpdesk support, where I learned how technology impacts people in their daily work. 
+              That experience gave me a strong foundation in troubleshooting, user empathy, and practical thinking. 
+              It also helped me understand how different systems interact.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Over time, I shifted toward backend development and process automation. 
               In these positions, I developed chatbots and integrated AI-driven solutions like robocalling 
               systems and third-party tools. I'm also an expert in various CRM platforms, helping to 
               simplify onboarding and offboarding processes.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               With a strong focus on CI/CD automation and experience in using Selenium for test automation, 
-              I am well-versed in third-party tools like Zapier, Make.com, and Decisions.com. I'm dedicated 
-              to delivering efficient and reliable software solutions.
+              I am well-versed in third-party tools like Zapier, Make.com, and Decisions.com, Activepieces, n8n. Latenode, Power Automate. 
+              I'm dedicated to delivering efficient and reliable software solutions.
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Core Expertise</h3>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
-                <span className="text-gray-700">Python & JavaScript Development</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                <span className="text-gray-700">API Integration & Automation</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
-                <span className="text-gray-700">CI/CD Pipeline Development</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                <span className="text-gray-700">CRM Platform Integration</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
-                <span className="text-gray-700">Test Automation with Selenium</span>
-              </div>
+        <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-2xl">
+  <h3 className="text-2xl font-bold text-gray-900 mb-6">Core Expertise</h3>
+  <div className="space-y-4">
+
+    {/* Programming */}
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
+      <span className="text-gray-700">Python & JavaScript Development</span>
+    </div>
+
+    {/* Automation & Integration */}
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+      <span className="text-gray-700">API Integration & Automation</span>
+    </div>
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
+      <span className="text-gray-700">CI/CD Pipeline Development</span>
+    </div>
+
+    {/* Platforms */}
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+      <span className="text-gray-700">CRM Platform Integration</span>
+    </div>
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
+      <span className="text-gray-700">Low-Code/No-Code (Zapier, Make, Decisions)</span>
+    </div>
+
+    {/* QA & Monitoring */}
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+      <span className="text-gray-700">Test Automation with Selenium</span>
+    </div>
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
+      <span className="text-gray-700">UI Testing Tools (Cypress, Playwright)</span>
+    </div>
+
+    {/* DevOps & Tools */}
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+      <span className="text-gray-700">Version Control (Git, GitHub, GitLab)</span>
+    </div>
+    <div className="flex items-center space-x-3">
+      <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
+      <span className="text-gray-700">Cloud & Infra (Azure, GCP, Heroku)</span>
+    </div>
+
+  </div>
+</div>
+
             </div>
           </div>
         </div>
