@@ -42,7 +42,7 @@ const Contact = () => {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
             <a
-              href="https://calendly.com/markyjalandoni"
+              href="https://calendly.com/markyjalandoni-mj"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-4 rounded-full text-white font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/25 flex items-center space-x-3"
@@ -51,15 +51,6 @@ const Contact = () => {
               <span>Schedule a Call</span>
             </a>
 
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 flex items-center space-x-3"
-            >
-              <Github className="w-5 h-5" />
-              <span>View GitHub</span>
-            </a>
           </div>
 
           <div className="text-gray-400">
