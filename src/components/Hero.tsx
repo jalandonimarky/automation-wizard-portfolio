@@ -15,10 +15,10 @@ const Hero = () => {
           <div className="mb-8 animate-fade-in">
             <Terminal className="w-16 h-16 mx-auto mb-6 text-purple-400" />
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-              Hi, I am Marky! A Technical Engineer.
+              Hi, I am Marky!
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-300 mb-8 font-light">
-              Automation Specialist & API Developer
+              Technical Engineer/Automation Specialist & API Developer
             </h2>
           </div>
           
@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
           
           <div className="flex justify-center space-x-8 animate-fade-in delay-700">
-            <a href="mailto:contact@example.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform">
+            <a href="mailto:mark@aivate.net" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform">
               <Mail className="w-8 h-8" />
             </a>
             <a href="https://github.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300 hover:scale-110 transform">
