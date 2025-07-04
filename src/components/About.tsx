@@ -19,9 +19,18 @@ const About = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto mb-8"></div>
           </div>
+
           
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
+              
+             <img
+  src="https://i.ibb.co/TqYKQvV2/3a5eed1b-bf2d-4b78-a228-0c9a0c68b0cc.jpg"
+  alt="Marky Jalandoni"
+  className="w-36 h-36 rounded-full mx-auto md:mx-0 mb-6 shadow-xl border-4 border-purple-300 object-cover transition-transform duration-300 hover:scale-105"
+/>
+
+              
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 Hi there! I'm a passionate Technical Engineer and Automation Specialist with a knack for 
                 API scripting, Python, and JavaScript. Over the years, I've had the privilege of working 
