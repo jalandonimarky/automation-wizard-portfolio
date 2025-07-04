@@ -36,15 +36,12 @@ const Contact = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-            <a 
-                href="https://calendly.com/markyjalandoni-mj/" // ← replace with your actual link
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-purple-600 text-white px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 flex items-center space-x-3 hover:bg-purple-700"
-              >
-                  <Calendar className="w-5 h-5" />
-                  <span>Schedule a Call</span>
-                </a>
+             href="mailto:contact@example.com" 
+              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-4 rounded-full text-white font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/25 flex items-center space-x-3"
+            >
+              <Mail className="w-5 h-5" />
+              <span>Send Email</span>
+            </a>
 
             <a 
               href="https://github.com" 
