@@ -24,11 +24,14 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               
-             <img
-  src="https://i.ibb.co/TqYKQvV2/3a5eed1b-bf2d-4b78-a228-0c9a0c68b0cc.jpg"
-  alt="Marky Jalandoni"
-  className="w-36 h-36 rounded-full mx-auto md:mx-0 mb-6 shadow-xl border-4 border-purple-300 object-cover transition-transform duration-300 hover:scale-105"
-/>
+<div className="flex justify-center md:justify-start mb-6">
+  <img
+    src="https://i.ibb.co/TqYKQvV2/3a5eed1b-bf2d-4b78-a228-0c9a0c68b0cc.jpg"
+    alt="Marky Jalandoni"
+    className="w-48 h-48 rounded-full border-4 border-purple-400 shadow-2xl object-cover transition-transform duration-300 hover:scale-105"
+  />
+</div>
+
 
               
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
