@@ -31,9 +31,9 @@ const Contact = () => {
 
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/15 transition-all duration-300">
               <Mail className="w-12 h-12 text-blue-400 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold mb-4">Project Collaboration</h3>
+              <h3 className="text-2xl font-bold mb-4">Hire Me</h3>
               <p className="text-gray-300 leading-relaxed">
-                Looking for a technical partner for your startup or existing
+                Looking for a technical Engineer for your startup or existing
                 business? I specialize in building scalable automation solutions
                 that grow with you.
               </p>
