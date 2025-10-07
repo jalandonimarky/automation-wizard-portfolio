@@ -16,7 +16,7 @@ const About = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto mb-6" />
 
           <img
-            src="https://i.ibb.co/Jj5rR83d/1231231.jpg"
+            src="https://i.ibb.co/fzq0dpxL/MARKY-new.png"
             alt="Marky Jalandoni"
             className="w-48 h-48 rounded-full border-4 border-purple-400 shadow-2xl object-cover mx-auto mb-8 hover:scale-105 transition-transform duration-300"
           />
