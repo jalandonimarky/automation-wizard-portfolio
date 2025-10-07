@@ -18,7 +18,7 @@ const Hero = () => {
               Hi, I am Marky!
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-300 mb-8 font-light">
-              Technical Engineer/Automation Specialist & API Developer
+              Automation Engineer/ API Developer
             </h2>
           </div>
           
